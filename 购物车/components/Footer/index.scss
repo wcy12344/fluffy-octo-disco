@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    .num{
+        color: red;
+    }
+    .end{
+        background-color: red;
+        width: 100px;
+        height: 50px;
+        color: #fff;
+        border: 0;
+    }
+    .left{
+        span{
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    
+    a{
+        color: #82b873;
+        background: #eff7ea;
+        border: 1px solid #ceddc5;
+        padding: 10px;
+        line-height: 30px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    p{
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,37 @@
+.cart{
+  width:60%;
+  margin:30px auto;
+
+  label{
+      width:100px;
+  }
+  .sort{
+      font-size: 20px;
+      display: inline-block;
+      cursor: pointer;
+      margin-left: 10px;
+      transition: all .5s linear;
+  }
+  .down{
+      transform: rotate(180deg);
+  }
+  table{
+      width:100%;
+
+      th,td{
+          border:#ddd 1px solid;
+          padding:5px;
+      }
+
+      thead{
+          background: #F0F0F0;
+      }
+      tfoot{
+          background: hotpink;
+      }
+
+      input[type=number]{
+          width:30px;
+      }
+  }
+}

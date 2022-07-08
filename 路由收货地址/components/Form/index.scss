@@ -1,0 +1,26 @@
+.form {
+    a{
+        text-decoration: none;
+        color: #369aff;
+    }
+    p{
+        text-align: right;
+        input{
+            width: 80%;
+            height: 30px;
+        }
+        margin: 8px 0;
+    }
+    padding: 5px;
+    border: 1px solid #e4a475;
+    button{
+        background-color: #369aff;
+        border: 0;
+        color: #fff;
+        height: 30px;
+        border-radius: 3px;
+        padding: 0 8px;
+        margin-left: 20%;
+    }
+    
+}

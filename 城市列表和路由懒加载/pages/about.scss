@@ -1,0 +1,95 @@
+.about {
+  width: 100%;
+  background: #eee;
+  box-sizing: border-box;
+  font-size: 18px;
+  .top {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background-color: skyblue;
+    padding: 0 10px;
+    height: 50px;
+    align-items: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .city {
+    background-color: #fff;
+    border-bottom: 2px solid gray;
+    div {
+      display: flex;
+      justify-content: space-between;
+      height: 30px;
+      line-height: 30px;
+      box-sizing: border-box;
+      padding: 0 5px;
+      .font {
+        color: gray;
+        font-size: 12px;
+      }
+      .now {
+        font-size: 14px;
+      }
+    }
+    div:first-child {
+      height: 40px;
+      line-height: 40px;
+    }
+    .select {
+      border-top: 1px solid #eee;
+      span:first-child {
+        color: darkturquoise;
+      }
+      span:last-child {
+        color: #eee;
+      }
+    }
+  }
+  .hotcity {
+    background: #fff;
+    ul {
+      width: 100%;
+      display: flex;
+      list-style: none;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      li {
+        box-sizing: border-box;
+        padding: 5px 10px;
+        width: 25%;
+        text-align: center;
+        border: 1px solid #000;
+
+      }
+
+    }
+  }
+  .group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  .item {
+    
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 25%;
+
+    
+    text-align: center;
+    border: 1px solid #000;
+
+  }
+
+}

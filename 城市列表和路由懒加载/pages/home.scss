@@ -1,0 +1,34 @@
+.article{
+    width: 100%;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    }
+    li{
+        cursor: pointer;
+        box-sizing: border-box;
+        list-style: none;
+        padding: 10px;
+        margin: 1%;
+        width: 48%;
+        height: 33%;
+        text-align: center;
+        background-color: #eee;
+        .title{
+            height: 30px;
+            line-height: 30px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space:nowarp;
+            font-size: 15px;
+        }
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}

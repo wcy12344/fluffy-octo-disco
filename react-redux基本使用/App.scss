@@ -1,0 +1,23 @@
+* {margin: 0;padding: 0}
+.sgg{
+    background-color: skyblue;
+}
+.nav{
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    div{
+        width: 50%;
+        line-height: 50px;
+        text-align: center;
+        a{
+            display: inline-block;
+            width: 100%;
+            text-decoration: none;
+            color: red;
+        }
+    }
+   
+}

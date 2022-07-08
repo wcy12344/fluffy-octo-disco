@@ -1,0 +1,36 @@
+.item{
+    margin: 20px 0;
+    border: 1px solid #e0e0e0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    .item-l{
+        padding-left: 20px;
+        p{
+            margin: 10px 0;
+            text-align: left;
+        }
+        .default{
+            padding: 5px;
+            background-color: #fff5ed;
+            color: #e6bb90;
+            border: 1px solid #f6f0e3;
+        }
+    }
+    .item-r{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        a{
+            margin: 0 5px;
+            text-decoration: none;
+            color: #809eca;
+        }
+        span{
+            color: red;
+            cursor: pointer;
+        }
+    }
+}
